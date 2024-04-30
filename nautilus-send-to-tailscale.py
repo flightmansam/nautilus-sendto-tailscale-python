@@ -59,7 +59,6 @@ class SendToTailscaleMenuProvider(GObject.GObject, Nautilus.MenuProvider):
         
         if len(paths) > 0:
             command = f"tailscale file cp {' '.join(f'"{p}"' for p in paths)} '{menu.hostname}':"
-            print(command)
             print(subprocess.check_output(command, shell=True))
 
 
