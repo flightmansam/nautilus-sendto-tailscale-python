@@ -1,6 +1,9 @@
 # Installation 
 move .py file to: $XDG_DATA_HOME/nautilus-python/extensions (i.e. ~/.local/share/…)  
-make sure you can run tailscale commands without needing sudo
+
+## Requirements
+- you can run tailscale commands without needing sudo
+- you have [nautilus-python](https://gitlab.gnome.org/GNOME/nautilus-python) installed/activated
 
 # Usage
 
